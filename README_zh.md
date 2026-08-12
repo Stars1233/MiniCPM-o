@@ -14,7 +14,11 @@
 &nbsp;
 <span style="display: inline-flex; align-items: center; margin-left: -8px;">
 <img src="./assets/discord.png" alt="Discord" style="margin-right: 4px;">
-  <a href="https://discord.gg/pBZuTA3hj" target="_blank"> Discord</a> &nbsp;
+  <a href="https://discord.gg/pBZuTA3hj" target="_blank"> Discord</a> &nbsp;|
+</span>
+&nbsp;
+<span style="display: inline-flex; align-items: center; margin-left: -8px;">
+  <a href="https://modelbest.feishu.cn/wiki/UtWxwcERfiRIpIkBOjuc3h9tn1D?fromScene=spaceOverview" target="_blank"> 📚 MiniCPM 知识库</a>
 </span>
 
 
