@@ -107,7 +107,7 @@
 - [MiniCPM-o 4.5](#minicpm-o-45)
   - [Usages](#usages-1)
 - [MiniCPM-V \& o Cookbook](#minicpm-v--o-cookbook)
-- [Supported Inference and Training Frameworks and API](#supported-inference-and-training-frameworks)
+- [Supported Inference and Training Frameworks and API](#supported-inference-and-training-frameworks-and-api)
 - [Model Zoo](#model-zoo)
 - [Awesome work using MiniCPM-V \& o](#awesome-work-using-minicpm-v--o)
 - [Technical Reports and Key Techniques Papers](#technical-reports-and-key-techniques-papers)
@@ -127,7 +127,7 @@
 - 📱 **Broad Mobile Platform Coverage.**
   MiniCPM-V 4.6 can be deployed across all three mainstream mobile platforms — iOS, Android, and HarmonyOS. With every edge adaptation code open-sourced, developers can reproduce the on-device experience in [just a few steps](#deploy-minicpm-v-46-on-ios-android-and-harmonyos-platforms-).
 - 🛠️ **Developer Friendly.**
-  MiniCPM-V 4.6 is adapted to [inference frameworks](#supported-inference-and-training-frameworks) such as SGLang, vLLM, llama.cpp, Ollama, and supports [fine-tuning ecosystems](#supported-inference-and-training-frameworks) such as SWIFT and LLaMA-Factory. Developers can quickly customize models for new domains and tasks on consumer-grade GPUs. We provide multiple quantized variants across GGUF, BNB, AWQ, and GPTQ formats.
+  MiniCPM-V 4.6 is adapted to [inference frameworks](#supported-inference-and-training-frameworks-and-api) such as SGLang, vLLM, llama.cpp, Ollama, and supports [fine-tuning ecosystems](#supported-inference-and-training-frameworks-and-api) such as SWIFT and LLaMA-Factory. Developers can quickly customize models for new domains and tasks on consumer-grade GPUs. We provide multiple quantized variants across GGUF, BNB, AWQ, and GPTQ formats.
 
 
 ### Evaluation <!-- omit in toc -->
@@ -354,7 +354,7 @@ We **open-source edge deployment guidance** of all these platforms, so that deve
 
 #### Use MiniCPM-V 4.6 in Other Inference and Training Frameworks <!-- omit in toc -->
 
-MiniCPM-V 4.6 supports [inference frameworks](#supported-inference-and-training-frameworks) including SGLang, vLLM, llama.cpp, Ollama, and [training frameworks](#supported-inference-and-training-frameworks) including LLaMA-Factory, SWIFT.
+MiniCPM-V 4.6 supports [inference frameworks](#supported-inference-and-training-frameworks-and-api) including SGLang, vLLM, llama.cpp, Ollama, and [training frameworks](#supported-inference-and-training-frameworks-and-api) including LLaMA-Factory, SWIFT.
 
 
 ### Acknowledgements <!-- omit in toc -->
@@ -2394,7 +2394,7 @@ Requirements:
 
 #### Use MiniCPM-o 4.5 in Other Inference and Training Frameworks <!-- omit in toc -->
 
-MiniCPM-o 4.5 supports [inference frameworks](#supported-inference-and-training-frameworks) including vLLM, SGLang, llama.cpp, Ollama, and [training frameworks](#supported-inference-and-training-frameworks) including LLaMA-Factory, SWIFT.
+MiniCPM-o 4.5 supports [inference frameworks](#supported-inference-and-training-frameworks-and-api) including vLLM, SGLang, llama.cpp, Ollama, and [training frameworks](#supported-inference-and-training-frameworks-and-api) including LLaMA-Factory, SWIFT.
 
 
 
@@ -2438,7 +2438,7 @@ It is organized for:
 * **Enterprises**: Scalable serving, high-throughput inference, and production-oriented deployment.
 * **Researchers**: Fine-tuning, model adaptation, and experimental workflows.
 
-For framework-specific deployment and training guides, see [Supported Inference and Training Frameworks and API](#supported-inference-and-training-frameworks).
+For framework-specific deployment and training guides, see [Supported Inference and Training Frameworks and API](#supported-inference-and-training-frameworks-and-api).
 
 
 ## Supported Inference and Training Frameworks and API
