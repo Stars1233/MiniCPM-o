@@ -43,7 +43,7 @@
 ## News <!-- omit in toc -->
 
 * [2026.06.25] 🔥🔥🔥 MiniCPM-V 4.6 has been merged into Ollama’s official model library, bringing ultra-efficient image and video understanding to local Ollama users. Try [it](https://ollama.com/library/minicpm-v4.6) now!
-* [2026.05.17] ⭐️⭐️⭐️ We release the [API service](./docs/api.md) of MiniCPM-V 4.6 and MiniCPM-o 4.5, and a **public free API key** for MiniCPM-V 4.6 is available for everyone!
+* [2026.05.17] ⭐️⭐️⭐️ We release the [API service](./docs/api.md) of MiniCPM-V 4.6 and MiniCPM-o 4.5.
 * [2026.05.11] 🔥🔥🔥 We open-source MiniCPM-V 4.6, with mixed 4x/16x visual token compression. Powered by strong encoding efficiency and its lightweight 1.3B scale, it is our most edge-deployment-friendly model to date, achieving ~1.5x token throughput compared to Qwen3.5 0.8B. Try it now!
 * [2026.02.06] 🥳 🥳 🥳 We open-sourced a realtime web demo deployable on your own devices like Mac or GPU. [Try it now](#web-demo-deployment)!
 * [2026.02.03] 🔥🔥🔥 We open-source MiniCPM-o 4.5, which matches Gemini 2.5 Flash on vision and speech, and supports full-duplex multimodal live streaming. Try it now!
@@ -2630,7 +2630,7 @@ We support fine-tuning with LLaMA-Factory, SWIFT. Refer to our [Cookbook](https:
 
 ### API <!-- omit in toc -->
 
-We provide free API access for MiniCPM-V 4.5 / 4.6 and MiniCPM-o 4.5. Refer to the [API Guide](./docs/api.md) for more details.
+Refer to the [API Guide](./docs/api.md) for MiniCPM-V 4.5 / 4.6 and MiniCPM-o 4.5.
 
 | Model | API |
 |:---|:---:|

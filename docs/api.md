@@ -11,13 +11,13 @@ Authorization: Bearer <API_KEY>
 Content-Type: application/json
 ```
 
-A **free** public API key is currently available for trying the service:
+The API is OpenAI-compatible. Create an API key at [platform.modelbest.cn](https://platform.modelbest.cn), then:
 
-```text
-sk-live-kmwPsO1yz9kJfbp8c6az72I-BjfZBX-5V5CmI9yTsXw
+```bash
+export API_KEY="your-api-key"
 ```
 
-Available model IDs:
+## Available Models
 
 ```text
 MiniCPM-V-4.5-9B
@@ -119,9 +119,10 @@ curl https://api.modelbest.cn/v1/chat/completions \
 
 ```python
 import json
+import os
 import urllib.request
 
-api_key = "<API_KEY>"
+api_key = os.environ["API_KEY"]
 payload = {
     "model": "MiniCPM-V-4.6-1B",
     "messages": [
@@ -146,6 +147,24 @@ with urllib.request.urlopen(request) as response:
     data = json.loads(response.read().decode("utf-8"))
 
 print(data["choices"][0]["message"]["content"])
+```
+
+Or with the OpenAI SDK:
+
+```python
+import os
+from openai import OpenAI
+
+client = OpenAI(
+    api_key=os.environ["API_KEY"],
+    base_url="https://api.modelbest.cn/v1",
+)
+
+resp = client.chat.completions.create(
+    model="MiniCPM-V-4.6-1B",
+    messages=[{"role": "user", "content": "List three use cases for MiniCPM-V."}],
+)
+print(resp.choices[0].message.content)
 ```
 
 ## MiniCPM-V 4.5
