@@ -2704,14 +2704,11 @@ This project is developed by the following institutions:
 
 ## 🌟 Star History <!-- omit in toc -->
 
-
-<a href="https://www.star-history.com/?repos=OpenBMB%2FMiniCPM-o&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=OpenBMB/MiniCPM-o&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=OpenBMB/MiniCPM-o&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=OpenBMB/MiniCPM-o&type=date&legend=top-left" />
- </picture>
-</a>
+<p align="center">
+  <a href="https://github.com/OpenBMB/MiniCPM-V/stargazers">
+    <img src="assets/Star-History.png" alt="Star History Chart"/>
+  </a>
+</p>
 
 ## Technical Reports and Key Techniques Papers
 

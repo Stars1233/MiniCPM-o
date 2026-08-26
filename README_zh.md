@@ -2685,30 +2685,11 @@ MiniCPM-V 4.5 / 4.6 和 MiniCPM-o 4.5 的 API 用法见 [API Guide](./docs/api.m
 
 ## 🌟 Star History <!-- omit in toc -->
 
-<!-- <table align="center">
-    <p align="center">
-      <img src="assets/star-history-25-09-02.png"/>
-    </p>
-</table> -->
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="
-      https://api.star-history.com/svg?repos=OpenBMB/MiniCPM-o&type=Date&theme=dark
-    "
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="
-      https://api.star-history.com/svg?repos=OpenBMB/MiniCPM-o&type=Date
-    "
-  />
-  <img
-    alt="Star History Chart"
-    src="https://api.star-history.com/svg?repos=OpenBMB/MiniCPM-o&type=Date"
-  />
-</picture>
+<p align="center">
+  <a href="https://github.com/OpenBMB/MiniCPM-V/stargazers">
+    <img src="assets/Star-History.png" alt="Star History Chart"/>
+  </a>
+</p>
 
 ## 技术报告和支撑技术论文
 
